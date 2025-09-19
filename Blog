@@ -9,16 +9,16 @@
   <header>
     <h1>Copetti blog</h1>
     <p><h2>Copetti es un futbolista de Rosario Central que se deesempaña en la posicion de delantero centro. Tiene 3 goles en los últimos 30 partidos pero porque atraviesa una mala racha. Las buenas ya van a llegar.
-Copetti inició</h2></p>
+Copetti inició su carrera en Racing club, donde ganó 2 títulos.</h2></p>
     <nav>
-      <a href="about.html">About Me</a>
+      <a href="about.html"carrera de Copetti</a>
     </nav>
   </header>
 
   <main>
     <!-- Post 1 -->
     <article>
-      <h2>First Steps into Blogging</h2>
+      <h2>Gol a River en el monumental</h2>
       <p><strong>Author:</strong> John Doe | <strong>Date:</strong> September 1, 2025</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in nulla sit amet mi fermentum fermentum.</p>
       <p>Suspendisse potenti. Cras vel gravida odio, a vulputate velit.</p>
@@ -27,7 +27,7 @@ Copetti inició</h2></p>
 
     <!-- Post 2 -->
     <article>
-      <h2>Why I Love Coding</h2>
+      <h2>Gol a Lanús</h2>
       <p><strong>Author:</strong> John Doe | <strong>Date:</strong> September 5, 2025</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet accumsan justo.</p>
       <p>Morbi egestas felis non mi porttitor, ac euismod neque venenatis.</p>
@@ -36,7 +36,7 @@ Copetti inició</h2></p>
 
     <!-- Post 3 -->
     <article>
-      <h2>My Favorite Books</h2>
+      <h2>1era copa</h2>
       <p><strong>Author:</strong> John Doe | <strong>Date:</strong> September 10, 2025</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu lorem ac felis luctus eleifend.</p>
       <img src="blog3.jpg" alt="Stack of books" />
@@ -44,7 +44,7 @@ Copetti inició</h2></p>
 
     <!-- Post 4 -->
     <article>
-      <h2>A Journey Through Nature</h2>
+      <h2>2do títumo</h2>
       <p><strong>Author:</strong> John Doe | <strong>Date:</strong> September 12, 2025</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare ex nec odio ullamcorper, at convallis nulla facilisis.</p>
       <p>Aliquam ac commodo arcu, vitae lacinia libero.</p>
@@ -53,7 +53,7 @@ Copetti inició</h2></p>
 
     <!-- Post 5 -->
     <article>
-      <h2>Looking Ahead</h2>
+      <h2>Su paso ppr el Charlotte</h2>
       <p><strong>Author:</strong> John Doe | <strong>Date:</strong> September 15, 2025</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper sem at orci venenatis, at ultricies dui sagittis.</p>
       <img src="blog5.jpg" alt="Sunrise over mountains" />
