@@ -1,0 +1,133 @@
+:root {
+  /* Colores principales */
+  --cream: #f6efe2;        /* fondo crema */
+  --formal-blue: #0b3d91;  /* azul oscuro, formal */
+  --text-color: #222222;
+  --card-bg: #ffffff;
+  --muted: #666666;
+  --max-width: 900px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: var(--cream);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+  padding: 1.25rem 0;
+  background: transparent;
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+/* Títulos: azul oscuro formal */
+.site-title,
+.post-title,
+h1, h2, h3 {
+  color: var(--formal-blue);
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Subtítulos y metadatos */
+.site-subtitle {
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+/* Navegación */
+.main-nav {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--formal-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-cta {
+  background: var(--formal-blue);
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Posts: tarjetas blancas sobre fondo crema para mejor contraste */
+.post {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 1.2rem 0;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.04);
+}
+
+.post-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Imágenes */
+.post-image {
+  margin-top: 0.75rem;
+}
+
+.post-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  color: var(--muted);
+  text-align: center;
+  background: transparent;
+}
+
+/* Accesibilidad: asegurar contraste en títulos y botones */
+a:focus, button:focus {
+  outline: 3px solid rgba(11,61,145,0.18);
+  outline-offset: 2px;
+}
+
+/* Ajustes responsivos menores */
+@media (min-width: 700px) {
+  .header-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
